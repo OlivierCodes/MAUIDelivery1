@@ -18,9 +18,9 @@ namespace MAUIDelivery1
                     fonts.AddFont("latobold.TTF", "bold");
                     fonts.AddFont("latoregular.TTF", "medium");
                     fonts.AddFont("FontAwesomeSolid.otf", "AwesomeSolid");
-
+                    fonts.AddFont("latoblack.TTF", "black");
+                    fonts.AddFont("latoitalic.TTF", "italic");
                 });
-
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif

@@ -50,10 +50,22 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Fonts\FontAwesomeSolid.otf" />
+	  <None Remove="Resources\Fonts\latoblack.TTF" />
 	  <None Remove="Resources\Fonts\latobold.TTF" />
+	  <None Remove="Resources\Fonts\latoitalic.TTF" />
 	  <None Remove="Resources\Fonts\latoregular.TTF" />
 	  <None Remove="Resources\Images\applogo.png" />
 	  <None Remove="Resources\Images\food.jpg" />
+	  <None Remove="Resources\Images\header1.jpg" />
+	  <None Remove="Resources\Images\header2.jpg" />
+	  <None Remove="Resources\Images\header3.jpg" />
+	  <None Remove="Resources\Images\header4.jpg" />
+	  <None Remove="Resources\Images\header5.jpg" />
+	  <None Remove="Resources\Images\logo1.jpg" />
+	  <None Remove="Resources\Images\logo2.jpg" />
+	  <None Remove="Resources\Images\logo3.jpg" />
+	  <None Remove="Resources\Images\logo4.jpg" />
+	  <None Remove="Resources\Images\logo5.jpg" />
 	  <None Remove="Resources\Raw\initialanimation.json" />
 	</ItemGroup>
 
@@ -67,6 +79,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\LoginView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\StoreView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

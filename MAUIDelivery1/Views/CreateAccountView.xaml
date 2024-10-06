@@ -6,7 +6,6 @@
              Title="CreateAccountView"
              NavigationPage.HasNavigationBar="False">
 
-
     <Grid RowDefinitions=".3*, .7*">
         <Image Aspect="AspectFill" Source="food.jpg"/>
         <Grid BackgroundColor="#4F3F9B" Opacity=".8"/>
@@ -32,7 +31,7 @@
 
 
                 <Grid Margin="0,30,0,0" ColumnDefinitions=".2*, .8*">
-                    <RoundRectangle BackgroundColor="#EDEBF6"
+                    <RoundRectangle Fill="#EDEBF6"
                           CornerRadius="10"
                           HeightRequest="60"
                           HorizontalOptions="Center"
@@ -54,7 +53,7 @@
                 </Grid>
 
                 <Grid Margin="0,30,0,0" ColumnDefinitions=".2*, .8*">
-                    <RoundRectangle BackgroundColor="#EDEBF6"
+                    <RoundRectangle Fill="#EDEBF6"
                                  CornerRadius="10"
                                  HeightRequest="60"
                                  HorizontalOptions="Center"
@@ -97,20 +96,17 @@
                          Text="1234"
                          VerticalOptions="Center"/>
                 </Grid>
-                
+
                 <Button
                  Margin="0, 20, 0, 0"
                  BackgroundColor="#4F3F9B"
                  HeightRequest="60"
                  Text="Créer votre compte"
                  TextColor="#FBF6FD"/>
-
                 
             </VerticalStackLayout>
         </Grid>
 
     </Grid>
-
-
 
 </ContentPage>

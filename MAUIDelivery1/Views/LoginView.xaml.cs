@@ -4,12 +4,21 @@ public partial class LoginView : ContentPage
 {
 	public LoginView()
 	{
-		InitializeComponent();
+        InitializeComponent();
 	}
+
+
 
     private async void CreateAccount_Clicked(object sender, EventArgs e)
     {
 		await Navigation.PushAsync(new CreateAccountView());
+
+    }
+
+
+    private async void StorePage_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new StoreView());
 
     }
 }
